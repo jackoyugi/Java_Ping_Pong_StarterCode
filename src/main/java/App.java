@@ -15,7 +15,9 @@ public static void main(String[] args){
         int intUserNumber = Integer.parseInt(stringUserNumber);
         PingPong pingPong = new PingPong();
         ArrayList<Object> pingPongResult = pingPong.runPingPong(intUserNumber);
-        System.out.println(pingPongResult);
+        System.out.println("pingPongResult");
+
+        System.out.println("Thank you for taking a ping pong test");
     }
     catch (IOException e){
         e.printStackTrace();
